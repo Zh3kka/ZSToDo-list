@@ -8,10 +8,10 @@ body {
     font-family: sans-serif;
 }
 
-.container {
+/* .container {
     margin: 0 auto;
     max-width: 1000px;
-}
+} */
 
 header {
     text-align: center;
@@ -74,4 +74,44 @@ li {
     justify-content: center;
     width: 600px;
     font-size: 28px;
+}
+
+
+@media screen and (max-width: 855px) {
+    main {
+        align-items: center;
+    }
+    form {
+        margin: 0px 30px;
+    }
+    button {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    form {
+        margin: 0px 50px;
+        flex-wrap: wrap;
+    }
+
+    form > input {
+        margin-bottom: 30px;
+    }
+    li {
+        max-width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 30px;
+    }
+}
+ 
+@media screen and (max-width: 350px) {
+    form {
+        align-items: center;
+    }
+    form > button {
+        margin-left: 0px;
+        display: inline-block;
+    }
 }
