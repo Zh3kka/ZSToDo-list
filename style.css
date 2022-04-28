@@ -60,6 +60,7 @@ main {
 }
 
 ul {
+    text-align: center;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -74,6 +75,7 @@ li {
     justify-content: center;
     width: 600px;
     font-size: 28px;
+    text-align: center;
 }
 
 
