@@ -31,7 +31,8 @@ form {
 }
 
 input {
-    padding: 5px;
+    font-size: 18px;
+    padding: 15px 5px;
     width: 500px;
     border: solid 1px #8b00ff;
     border-radius: 5px;
