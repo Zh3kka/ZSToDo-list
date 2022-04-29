@@ -84,9 +84,11 @@ li {
     main {
         align-items: center;
     }
+
     form {
         margin: 0px 30px;
     }
+
     button {
         margin-right: 30px;
     }
@@ -98,9 +100,10 @@ li {
         flex-wrap: wrap;
     }
 
-    form > input {
+    form>input {
         margin-bottom: 30px;
     }
+
     li {
         max-width: 200px;
         display: flex;
@@ -108,13 +111,20 @@ li {
         margin: 30px 30px;
     }
 }
- 
+
 @media screen and (max-width: 350px) {
     form {
         align-items: center;
     }
-    form > button {
+
+    form>button {
         margin-left: 0px;
         display: inline-block;
     }
+}
+
+.hr {
+    margin: 15px 0px;
+    width: 100%;
+    border: dotted 1px #8b00ff;
 }
